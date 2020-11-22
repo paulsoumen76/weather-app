@@ -15,7 +15,7 @@ const forcast = (latitude,longitude,callback) => {
             const humidity = body.current.humidity
             callback(undefined,weather_desc + ". it is currently "
                  + temperature + " degrees out. it feels like " + feelslike +
-                " degrees out. " + "Humidity is. " + humidity)
+                " degrees out. " + "Humidity is " + humidity + ".")
         }
     }) 
 
